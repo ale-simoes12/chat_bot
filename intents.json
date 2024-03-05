@@ -1,0 +1,28 @@
+{"intents":[
+  { "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi", "tudo bem"],
+    "responses": ["Oi","Olá"]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","tks"],
+    "responses": ["Até breve","Falou"]
+  },
+  { "tag": "data_prova",
+    "patterns":["Quando sera a prova?","A prova será em que dia?"],
+    "responses": ["no dia 26"]
+  },
+  { "tag": "Pipe",
+    "patterns":["O que é um pipe",  "Pipe"],
+    "responses": ["O PIPE é um programa da FAPESP destinado a apoiar pesquisas inovadoras em pequenas empresas no estado de São Paulo, Brasil.", "Programa Pesquisa Inovativa em Pequenas Empresas (PIPE) detém exclusivamente os direitos legais de propriedade intelectual dos resultados das pesquisas financiadas, sem a exigência de compartilhamento com a Fundação. "]
+  },
+
+{ "tag": "Fazer_Pipe",
+    "patterns":["Como eu faço ? , Como submeter? , Como eu faço para submeter um pipe?", "Encaminhar" , "Submeter"],
+    "responses": ["1-Verifique a elegibilidade da sua empresa. 2-Leia as diretrizes no site da FAPESP. 3-Cadastre-se no Sistema de Apoio à Gestão (SAGe). 4-Elabore a proposta seguindo as diretrizes. 5-Submeta a proposta no SAGe, preenchendo formulários e fazendo upload de documentos. 6-Aguarde a avaliação do projeto por especialistas. 7-Receba os resultados e, se aprovado, inicie o processo de contratação." ,   "Submeter um projeto ao Programa FAPESP Pesquisa Inovativa em Pequenas Empresas (PIPE) envolve a verificação da elegibilidade da empresa, o cadastro no SAGe, e a elaboração e submissão da proposta conforme as diretrizes da FAPESP. Após a avaliação por especialistas, os resultados são comunicados, e, em caso de aprovação, inicia-se o processo de contratação. Consultar as diretrizes oficiais da FAPESP é crucial para garantir aderência aos requisitos atualizados do programa. "]
+  }
+
+
+
+
+]
+}
