@@ -15,7 +15,7 @@
   },
 
   { "tag": "Pipe",
-    "patterns":["O que é um pipe",  "Pipe"],
+    "patterns":["O que é um pipe"],
     "responses": ["O PIPE é um programa da FAPESP destinado a apoiar pesquisas inovadoras em pequenas empresas no estado de São Paulo, Brasil.", "Programa Pesquisa Inovativa em Pequenas Empresas (PIPE) detém exclusivamente os direitos legais de propriedade intelectual dos resultados das pesquisas financiadas, sem a exigência de compartilhamento com a Fundação. "]
   },
 
