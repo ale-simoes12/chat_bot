@@ -52,6 +52,11 @@
     "responses": ["O site fapesp.br/pipe apresenta em detalhes o programa, incluindo o texto completo das normas e as chamadas vigentes."]
   },
 
+{ "tag": "Valores",
+    "patterns":["Quais os valores recebidos por cada fase?" ],
+    "responses": ["Fase 1: orçamento de até R$ 300.000; Fase 2:orçamento de até R$ 1.500.000;Fase 3: Sem o apoio da FAPESP "]
+  },
+
 
 
 { "tag": "Fazer_Pipe",
