@@ -3,26 +3,60 @@
     "patterns":["Ola","Opa","Oi", "tudo bem"],
     "responses": ["Oi","Olá"]
   },
+
   { "tag": "despedida",
     "patterns":["valeu","tchau","Obrigado","tks"],
     "responses": ["Até breve","Falou"]
   },
+
   { "tag": "data_prova",
     "patterns":["Quando sera a prova?","A prova será em que dia?"],
     "responses": ["no dia 26"]
   },
+
   { "tag": "Pipe",
-    "patterns":["O que é um pipe",  "Pipe"],
+    "patterns":["O que é um pipe?"],
     "responses": ["O PIPE é um programa da FAPESP destinado a apoiar pesquisas inovadoras em pequenas empresas no estado de São Paulo, Brasil.", "Programa Pesquisa Inovativa em Pequenas Empresas (PIPE) detém exclusivamente os direitos legais de propriedade intelectual dos resultados das pesquisas financiadas, sem a exigência de compartilhamento com a Fundação. "]
   },
+
+  { "tag": "Objetivo",
+    "patterns":["Objetivo",  "Finalidade" , "Qual o objeto?", "Qual a finalidade?" ],
+    "responses": [" 1. Apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica, promover o desenvolvimento empresarial e aumentar a competitividade das pequenas empresas. 2. Incrementar a contribuição da pesquisa para o desenvolvimento econômico e social. 3. Induzir o aumento do investimento privado em pesquisa tecnológica. 4. Possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica.5. Contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas empresas e para o emprego de pesquisadores no mercado."]
+  },
+
+
+ { "tag": "Fases",
+    "patterns":["Fases",  "Estapas", "Quais são as fases do pipe", "Quais são as etapas do pipe"],
+    "responses": ["Fase 1: Viabilidade técnico-científica - Testando e refinando a ideia. Fase 2: Desenvolvimento do projeto - Tornando a ideia uma realidade. Fase 3:Comercialização - Entrando no mercado (sem financiamento FAPESP) "]
+  },
+
+
+ { "tag": "Formato_Relatorio",
+    "patterns":["Quais a normas que devem ser feitas?", "Existe um formato expecifico?", "Quais as limitações?" ],
+    "responses": ["Os Relatórios Científicos parciais e final devem ser organizados com as seções e itens elencados a seguir, preferencialmente nessa ordem, de tal modo que os itens de 1 a 9 não ocupem mais de 20 páginas."]
+  },
+
+
+ { "tag": "Primeira_Fase",
+    "patterns":["A fase 1 é obrigatoria?", "Posso ir para a fase 2?" ],
+    "responses": ["A empresa pode submeter uma proposta à Fase 2 Direta. Nesse caso é fundamental demonstrar que a viabilidade técnica da pesquisa já foi demonstrada; para tanto é fundamental apresentar um ótimo documento de (Justificativa para a Fase 2 Direta)."]
+  },
+
+ { "tag": "Áreas",
+    "patterns":["Há áreas prioritárias para o Pipe?" ],
+    "responses": ["Não. O PIPE visa a apoiar pesquisas promissoras, com potencial de inovação, em qualquer área do conhecimento."]
+  },
+
+ { "tag": "Mais_Informações",
+    "patterns":["Como posso obter mais informações sobre o Pipe?" ],
+    "responses": ["O site fapesp.br/pipe apresenta em detalhes o programa, incluindo o texto completo das normas e as chamadas vigentes."]
+  },
+
+
 
 { "tag": "Fazer_Pipe",
     "patterns":["Como eu faço ? , Como submeter? , Como eu faço para submeter um pipe?", "Encaminhar" , "Submeter"],
     "responses": ["1-Verifique a elegibilidade da sua empresa. 2-Leia as diretrizes no site da FAPESP. 3-Cadastre-se no Sistema de Apoio à Gestão (SAGe). 4-Elabore a proposta seguindo as diretrizes. 5-Submeta a proposta no SAGe, preenchendo formulários e fazendo upload de documentos. 6-Aguarde a avaliação do projeto por especialistas. 7-Receba os resultados e, se aprovado, inicie o processo de contratação." ,   "Submeter um projeto ao Programa FAPESP Pesquisa Inovativa em Pequenas Empresas (PIPE) envolve a verificação da elegibilidade da empresa, o cadastro no SAGe, e a elaboração e submissão da proposta conforme as diretrizes da FAPESP. Após a avaliação por especialistas, os resultados são comunicados, e, em caso de aprovação, inicia-se o processo de contratação. Consultar as diretrizes oficiais da FAPESP é crucial para garantir aderência aos requisitos atualizados do programa. "]
   }
-
-
-
-
 ]
 }
