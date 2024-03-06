@@ -9,12 +9,8 @@
     "responses": ["Até breve","Falou"]
   },
 
-  { "tag": "data_prova",
-    "patterns":["Quando sera a prova?","A prova será em que dia?"],
-    "responses": ["no dia 26"]
-  },
-
-  { "tag": "Pipe",
+  
+ { "tag": "Pipe",
     "patterns":["O que é um pipe?"],
     "responses": ["O PIPE é um programa da FAPESP destinado a apoiar pesquisas inovadoras em pequenas empresas no estado de São Paulo, Brasil.", "Programa Pesquisa Inovativa em Pequenas Empresas (PIPE) detém exclusivamente os direitos legais de propriedade intelectual dos resultados das pesquisas financiadas, sem a exigência de compartilhamento com a Fundação. "]
   },
@@ -26,7 +22,7 @@
 
 
  { "tag": "Fases",
-    "patterns":["Fases",  "Estapas", "Quais são as fases do pipe", "Quais são as etapas do pipe"],
+    "patterns":["Fases",  "Estapas", "Quais são as fases do pipe?", "Quais são as etapas do pipe?"],
     "responses": ["Fase 1: Viabilidade técnico-científica - Testando e refinando a ideia. Fase 2: Desenvolvimento do projeto - Tornando a ideia uma realidade. Fase 3:Comercialização - Entrando no mercado (sem financiamento FAPESP) "]
   },
 
@@ -52,14 +48,11 @@
     "responses": ["O site fapesp.br/pipe apresenta em detalhes o programa, incluindo o texto completo das normas e as chamadas vigentes."]
   },
 
-<<<<<<< HEAD
+
 { "tag": "Valores",
     "patterns":["Quais os valores recebidos por cada fase?" ],
     "responses": ["Fase 1: orçamento de até R$ 300.000; Fase 2:orçamento de até R$ 1.500.000;Fase 3: Sem o apoio da FAPESP "]
   },
-
-=======
->>>>>>> f9d9f66d07de10ec1b42c7cb826cd911b5e3cbdd
 
 
 { "tag": "Fazer_Pipe",
