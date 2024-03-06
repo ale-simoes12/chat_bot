@@ -15,7 +15,11 @@
   },
 
   { "tag": "Pipe",
+<<<<<<< HEAD
+    "patterns":["O que é um pipe?"],
+=======
     "patterns":["O que é um pipe"],
+>>>>>>> 1fbbe148afb47aafbced45cab25136a2c9a03c02
     "responses": ["O PIPE é um programa da FAPESP destinado a apoiar pesquisas inovadoras em pequenas empresas no estado de São Paulo, Brasil.", "Programa Pesquisa Inovativa em Pequenas Empresas (PIPE) detém exclusivamente os direitos legais de propriedade intelectual dos resultados das pesquisas financiadas, sem a exigência de compartilhamento com a Fundação. "]
   },
 
@@ -32,11 +36,33 @@
 
 
  { "tag": "Formato_Relatorio",
+<<<<<<< HEAD
+    "patterns":["Quais a normas que devem ser feitas?", "Existe um formato expecifico?", "Quais as limitações?" ],
+=======
     "patterns":["Quais a normas que devem ser feitas", "Existe um formato expecifico", "Quais as limitações" ],
+>>>>>>> 1fbbe148afb47aafbced45cab25136a2c9a03c02
     "responses": ["Os Relatórios Científicos parciais e final devem ser organizados com as seções e itens elencados a seguir, preferencialmente nessa ordem, de tal modo que os itens de 1 a 9 não ocupem mais de 20 páginas."]
   },
 
 
+<<<<<<< HEAD
+ { "tag": "Primeira_Fase",
+    "patterns":["A fase 1 é obrigatoria?", "Posso ir para a fase 2?" ],
+    "responses": ["A empresa pode submeter uma proposta à Fase 2 Direta. Nesse caso é fundamental demonstrar que a viabilidade técnica da pesquisa já foi demonstrada; para tanto é fundamental apresentar um ótimo documento de (Justificativa para a Fase 2 Direta)."]
+  },
+
+ { "tag": "Áreas",
+    "patterns":["Há áreas prioritárias para o Pipe?" ],
+    "responses": ["Não. O PIPE visa a apoiar pesquisas promissoras, com potencial de inovação, em qualquer área do conhecimento."]
+  },
+
+ { "tag": "Mais_Informações",
+    "patterns":["Como posso obter mais informações sobre o Pipe?" ],
+    "responses": ["O site fapesp.br/pipe apresenta em detalhes o programa, incluindo o texto completo das normas e as chamadas vigentes."]
+  },
+
+=======
+>>>>>>> 1fbbe148afb47aafbced45cab25136a2c9a03c02
 
 
 { "tag": "Fazer_Pipe",
